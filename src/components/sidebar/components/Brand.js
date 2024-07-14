@@ -13,7 +13,7 @@ export function SidebarBrand() {
 
   return (
     <Flex align='center' direction='column'>
-      <HorizonLogo h='26px' w='175px' my='32px' color={logoColor} />
+      <h1 color={logoColor} style={{fontSize:"30px"}}>ManageMaster</h1>
       <HSeparator mb='20px' />
     </Flex>
   );
